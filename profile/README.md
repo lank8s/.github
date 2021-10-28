@@ -30,4 +30,20 @@ kubeadm init --image-repository=lank8s.cn --kubernetes-version=v1.17.4 --pod-net
 
 其中使用image-repository参数指定镜像的仓库为`lank8s.cn`即可.
 
-上述例子是部署一个1.17.4版本的K8S,如需其他版本可自行修改.
+上述例子是部署一个1.17.4版本的K8S,如需其他版本可自行修改.  
+
+# 接受赞助
+
+为了提供更好的服务,我在下面贴出两个二维码接受赞助,我承诺所有赞助都只会用于优化`lank8s.cn`服务.  
+
+![zhifubao](https://res.cloudinary.com/lyp/image/upload/v1616142335/pay/zhifubao.png)  
+
+![weixin](https://res.cloudinary.com/lyp/image/upload/v1616142330/pay/weixin.png)
+
+# 付费服务  
+
+即将会推出`quay.io`和`gcr.io`的短域名镜像代理服务,并且采取收费策略,30半年,50一年.有意者请加我微信,谢谢!  
+
+![weixin](https://res.cloudinary.com/lyp/image/upload/v1614786289/weixin.jpg)
+
+
