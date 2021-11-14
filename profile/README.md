@@ -32,6 +32,21 @@ kubeadm init --image-repository=lank8s.cn --kubernetes-version=v1.17.4 --pod-net
 
 上述例子是部署一个1.17.4版本的K8S,如需其他版本可自行修改.   
 
+# lank8s.cn和registry.aliyuncs.com/google_containers的区别  
+
+registry.aliyuncs.com/google_containers是定时同步kubernetes的镜像到阿里镜像仓库服务的,但只是K8S组件的镜像,可以看下和lank8s.cn的对比:  
+
+   |         | k8s组件镜像    |  k8s.gcr.io其他镜像  |  及时性  |  容易记  |  
+   | --------   | -----:   | :----: |  :----: |  
+   | registry.aliyuncs.com/google_containers       | 支持      |   不支持    | 定时,存在时间差    |  容易记    |  
+   | lank8s.cn        | 支持      |   支持    |  直接从k8s.gcr.io拉取,不存在时间差    |   容易记,短域名   |  
+   
+# 技术使人懒惰   
+
+我们知道,不管使用哪一种方式,我们都少不了的步骤时再部署一些k8s.gcr.io的资源时需要在部署前将k8s.gcr.io的镜像修改为国内某个地方(例如lank8s.cn),这样的事情做得多了也会显得繁琐.
+
+因此我们即将推出一个k8s mutating webhook, 这个webhook的唯一作用就是在创建或更新资源(例如Deployment,Statefulset)将`k8s.gcr.io`修改为`lank8s.cn`.后续也会支持参数化,例如支持配置将`registry.aliyuncs.com/google_containers`修改为`lank8s.cn`
+
 # 付费服务  
 
 即将会推出`quay.io`和`gcr.io`的短域名镜像代理服务,并且采取收费策略,30半年,50一年.有意者请加我微信,谢谢!  
