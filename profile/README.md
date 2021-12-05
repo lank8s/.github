@@ -55,12 +55,11 @@ registry.aliyuncs.com/google_containers是定时同步kubernetes的镜像到阿�
 
 # 付费服务  
 
-即将会推出`quay.io`和`gcr.io`的短域名镜像代理服务,并且采取收费策略,25半年,39一年.有意者请加我微信,谢谢!  
+即将会推出`gcr.io`的短域名镜像代理服务,并且采取收费策略,经过多次决策,最终决定15一年.有意者请加我微信,谢谢!  
 
-`gcr.io`--->`gcr.lank8s.cn`  
-`quay.io`--->`quay.lank8s.cn`   
+`gcr.io`--->`gcr.lank8s.cn`   
 
-`gcr.lank8s.cn`也有部分免费镜像提供支持,例如/google_samples的镜像,/kubebuilder的镜像,/istio-release的镜像.  
+`gcr.lank8s.cn`也有部分免费镜像提供支持,例如/google_samples的镜像,/kubebuilder的镜像,/istio-release的镜像.    
 
 ![weixin](https://res.cloudinary.com/lyp/image/upload/v1614786289/weixin.jpg)
 
