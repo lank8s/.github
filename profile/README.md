@@ -15,7 +15,7 @@ Hi there 👋
 > 国内安装K8S基本镜像站---> lank8s.cn  
 > 最新内容请查看 [lank8s.cn服务文章](https://liangyuanpeng.com/post/cncf-kubernetes/service-lank8s.cn/)
 
-欢迎使用，有问题/建议都可以到[lank8s.cn服务文章](https://liangyuanpeng.com/post/cncf-kubernetes/service-lank8s.cn/)留下你的评论
+欢迎使用，有问题/建议都可以到[lank8s.cn服务文章](https://liangyuanpeng.com/post/cncf-kubernetes/service-lank8s.cn/)或[这个issue](https://github.com/liangyuanpeng/liangyuanpeng.github.io/issues/84)留下你的评论
 
 `lank8s.cn`的使命是希望国内能够更低门槛的学习Kubernetes技术!
 
